@@ -1,0 +1,53 @@
+.one-half,
+.one-third {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+        margin-bottom: 20px;
+ 
+}
+ 
+.one-half { width: 48%; }
+.one-third { width: 30.66%; }
+ 
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+ 
+@media only screen and (max-width: 767px) {
+    .one-half, .one-third {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+#padre-boton #anuncio .et_pb_more_botton, .et_pb_button {
+  background: #2ca3e1;
+  color: white;
+  padding: 15px 35px;
+  font-size: 13px;
+  content:"";
+  border-radius: 0;
+}
+
+#padre-boton #anuncio .et_pb_more_botton:hover, .et_pb_button:hover {
+  background: transparent;
+  color: #000000;
+  padding: 15px 35px;
+  font-size: 13px;
+  border: solid 1px #000000; 
+  transition: all 0.3s ease-in-out;
+   border-radius: 0;
+}
+
+#padre-boton #anuncio .et_pb_more_botton:after, .et_pb_button:after{
+  content: "";
+  font-family: ETModules;
+	vertical-align: middle;
+  align-items: center;
+	margin-right: 10px;
+  padding-bottom: 5px;
+  
+}

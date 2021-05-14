@@ -1,0 +1,33 @@
+<?ADF VERSION "1.0"?>
+<?XML VERSION "1.0"?>
+<adf>
+    <prospect>
+        <service>[ventas]</service>
+        <customer>
+            <contact>
+                <name part="first" type="individual">[nombre]</name>
+                <name part="last" type="individual">[apellido]</name>
+                <email preferredcontact="1">[email]</email>
+                <phone type="phone">[telefono]</phone>
+                <address type="home">
+                    <city>[Localidad]</city>
+                </address>
+                <comments>Genero: [genero]</comments>
+            </contact>
+        </customer>
+        <vehicle>
+            <comments>[modelo]</comments>
+            <colorcombination>
+                <exteriorcolor>[color]</exteriorcolor>
+            </colorcombination>
+        </vehicle>
+        <finance>
+            <method>[pago]</method>
+        </finance>
+        <comments>Mensaje: [your-message]. Me gustaria ser contactado por: [contacto] </comments>
+
+        <provider>
+            <name>info@leonalperovich.com.ar</name>
+        </provider>
+    </prospect>
+</adf>

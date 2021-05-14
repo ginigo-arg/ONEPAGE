@@ -1,0 +1,48 @@
+#fila-manual{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px auto 0px auto !important;
+  }
+  
+  .columna a img{
+    width: 100%;
+  }
+  #fila-columna .columna a{
+          text-align: center !important;
+          text-transform: uppercase;
+          font-weight: 600;
+          text-decoration: none;
+      }
+      .columna{
+          width: 14%;
+          display: inline-block;
+      }
+  
+  
+  @media (max-width: 578px){
+    #fila-manual{
+    justify-content: space-around !important;
+    width: 100%;
+    margin: 0px auto 0px auto !important;
+  }
+    
+    .columna a img{
+    width: 20%;
+  }
+  
+      .columna{
+          width: 40% !important;
+          display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      }
+   .columna a {
+          text-align: center !important;
+          text-transform: uppercase;
+          font-weight: 600;
+          text-decoration: none;
+        font-size: 4px !important;
+        justify-content:center !important;
+      } 
+  }
