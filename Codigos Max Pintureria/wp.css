@@ -1,0 +1,33 @@
+body {
+  background-color: darkgray;
+}
+
+#whatsapp-icons {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  background-color: #128c7e;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+#whatsapp-icons:hover {
+  transition: 0.3s ease-in;
+  background-color: #219e90;
+}
+.sucursal img {
+  width: 100% !important;
+}
+
+/* .fab.fa-whatsapp {
+  border-radius: 30%;
+  padding: 8px;
+  background-color: green !important;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.fab.fa-whatsapp:hover {
+  transition: 0.3s ease-in;
+  transform: scale(1.1);
+  background-color: rgb(119, 134, 119) !important;
+} */

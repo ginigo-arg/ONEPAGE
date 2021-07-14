@@ -1,22 +1,24 @@
-<?ADF VERSION "1.0"?>
 <adf>
   <prospect>
-    <service>[ventas]</service>
+    <service>[nosotros]</service>
     <customer>
-      <!-- customer -->
       <contact>
         <name part="first" type="individual">[nombre]</name>
+        <name part="last" type="individual">[apellido]</name>
         <email preferredcontact="1">[email]</email>
         <phone type="phone">[telefono]</phone>
-        <comments>Interes:[Interes]</comments>
+        <address type="home">
+          <city>[ciudad]</city>
+        </address>
       </contact>
     </customer>
     <comments>Mensaje: [your-message]</comments>
     <comments>
-      {Éste mail se envió desde la pagina nosotros desde [_site_title]}
+      {Éste mail se envió desde la pagina nosotros desde
+      www.leonalperovich.com.ar/nosotros}
     </comments>
     <provider>
-      <name>Web{Pag. [_site_title]}</name>
+      <name>Web[Pag.Nosotros]</name>
     </provider>
   </prospect>
 </adf>

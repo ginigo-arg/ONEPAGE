@@ -1,43 +1,44 @@
 <?ADF VERSION "1.0"?>
 <adf>
-    <prospect>
-        <service>[plan-ovalo]</service>
-        <customer>
-    
-            <contact>
-                <name part="first" type="individual">[nombre]</name>
-                
-                <name part="last" type="individual">[apellido]</name>
-                
-                <email preferredcontact="1">[email]</email>
-                
-                <phone type="phone">[telefono]</phone>
-               
-                <address type="home">
-                    <city>[Localidad]</city>
-                </address>
-                <comments>Actividad Profesional: [Actividad-profesional]</comments>
-            </contact>
-        </customer>
-     
-        <vehicle>
-            <comments>Vehiculo: [vehiculo]</comments>
-            <comments>Versión: [ecosport][ranger]</comments>
-            <comments>Tipo de Plan: [plan]</comments>
-            <colorcombination>
-                <exteriorcolor>Color: [color]</exteriorcolor>
-            </colorcombination>
-        </vehicle>
-       
-        <finance>
-            <method>Plan Ovalo</method>
-        </finance>
+  <prospect>
+    <service>[plan-ovalo]</service>
+    <customer>
+      <contact>
+        <name part="first" type="individual">[nombre]</name>
 
-        <comments>Mensaje: [your-message].
-            Me gustaria ser contactado por: [contacto] </comments>
+        <name part="last" type="individual">[apellido]</name>
 
-        <provider>
-            <name>info@leonalperovich.com.ar</name>
-        </provider>
-    </prospect>
+        <email preferredcontact="1">[email]</email>
+
+        <phone type="phone">[telefono]</phone>
+
+        <address type="home">
+          <city>[Localidad]</city>
+        </address>
+        <comments>Actividad Profesional: [Actividad-profesional]</comments>
+      </contact>
+    </customer>
+    <vehicle>
+      <comments>Vehiculo: [vehiculo]</comments>
+      <comments>Versión: [ecosport][ranger]</comments>
+      <comments>Tipo de Plan: [plan]</comments>
+      <colorcombination>
+        <exteriorcolor>Color: [color]</exteriorcolor>
+      </colorcombination>
+    </vehicle>
+
+    <finance>
+      <method>Plan Ovalo</method>
+    </finance>
+
+    <comments
+      >Mensaje: [your-message]. Me gustaria ser contactado por: [contacto]
+    </comments>
+    <comments>
+      {Éste mail se envió desde la pagina nosotros desde [_site_title]}
+    </comments>
+    <provider>
+      <name>Web[Pag. plan-ovalo]</name>
+    </provider>
+  </prospect>
 </adf>

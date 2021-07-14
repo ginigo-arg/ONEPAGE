@@ -1,37 +1,28 @@
 <?ADF VERSION "1.0"?>
-
+<?XML VERSION "1.0"?>
 <adf>
   <prospect>
-    <service>[ventas]</service>
+    <service>[contacto]</service>
     <customer>
       <contact>
         <name part="first" type="individual">[nombre]</name>
-
         <name part="last" type="individual">[apellido]</name>
-
         <email preferredcontact="1">[email]</email>
-
         <phone type="phone">[telefono]</phone>
-
         <address type="home">
-          <city>[Localidad]</city>
+          <city>[ciudad]</city>
         </address>
+        <comments>Genero: [genero]</comments>
       </contact>
     </customer>
-
-    <vehicle>
-      <comments>[modelo]</comments>
-      <comments>Tipo de plan [plan]</comments>
-    </vehicle>
+    <comments>[interes]</comments>
+    <comments>Mensaje: [your-message]</comments>
     <comments
-      >Mensaje: [your-message]. Me gustaria ser contactado por: [contacto]
-    </comments>
-    <comments>
-      {Éste mail se envió desde la página
-      www.leonalperovich.com.ar/solicitar-test-drive/}
+      >{Éste mail se envió desde la pagina contacto desde
+      www.leonalperovich.com.ar/contacto}
     </comments>
     <provider>
-      <name>Web [Pag. Solicitar-Test-Drive]</name>
+      <name>Web[Pag.Contacto]</name>
     </provider>
   </prospect>
 </adf>
